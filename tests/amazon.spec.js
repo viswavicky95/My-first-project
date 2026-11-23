@@ -14,7 +14,11 @@ test('open amazon', async ({ page }) => {
     });
 
     await page.goto('https://www.flipkart.com');
+    await page.waitForTimeout(3000);
     await page.goBack();
     await page.goForward();
     await page.reload();
+    console.log(project);
+    console.log(title);
+    
 });
