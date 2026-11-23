@@ -18,6 +18,7 @@ test('open amazon', async ({ page }) => {
     await page.goBack();
     await page.goForward();
     await page.reload();
+    console.log(projde);
     console.log(project);
     console.log(title);
     
